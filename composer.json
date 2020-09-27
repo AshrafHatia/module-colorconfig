@@ -1,0 +1,30 @@
+{
+    "name": "ashraf/module-colorconfig",
+    "description": "Magento 2 change frontend Colors at admin store configuration",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "authors": [
+        {
+            "name": "ashraf hatia",
+            "email": "ashrafhatiya@live.com"
+        }
+    ],
+    "keywords": [
+        "magento 2",
+        "magento 2 color effects",
+        "magento 2 custom color configuration",
+        "magento 2 custom color config"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Ashraf\\ColorConfig\\": ""
+        }
+    }
+}

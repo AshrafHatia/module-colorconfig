@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="ashraf" translate="label" sortOrder="250" class="ashraf-tab">
+            <label>Ashraf</label>
+        </tab>
+        <section id="ColorConfig" translate="label" sortOrder="130" showInDefault="1" showInWebsite="1" showInStore="1">
+            <class>separator-top</class>
+            <label>ColorConfig</label>
+            <tab>ashraf</tab>
+            <resource>Ashraf_ColorConfig::config</resource>
+            <group id="general" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>General</label>
+                <field id="status" translate="label" type="select" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="0" canRestore="1">
+                    <label>Status</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                    <comment>Enable / Disable ColorConfig Module</comment>
+                </field>
+                <field id="version" translate="label" type="label" sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Current Version</label>
+                    <comment>ColorConfig version </comment>
+                </field>
+                <field id="mail" translate="label" type="label" sortOrder="40" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Contact</label>
+                </field>
+            </group>
+            <group id="design" translate="label" type="text" sortOrder="50" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Site Design</label>
+                <field id="menubgcolor" translate="label" sortOrder="60" type="text" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Menu bar Background Color</label>
+                    <frontend_model>Ashraf\ColorConfig\Block\Adminhtml\ColorPicker</frontend_model>
+                </field>
+                <field id="BgColor" translate="label" sortOrder="70" type="text" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Site Background Color</label>
+                    <frontend_model>Ashraf\ColorConfig\Block\Adminhtml\ColorPicker</frontend_model>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

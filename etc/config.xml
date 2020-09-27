@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <ColorConfig>
+            <general>
+                <status>1</status>
+                <version>1.0.0</version>
+                <mail>ashrafhatia@gmail.com</mail>
+            </general>
+            <design>
+                <menubgcolor>ff0669</menubgcolor>
+                <BgColor>f4e8fc</BgColor>
+            </design>
+        </ColorConfig>
+    </default>
+</config>

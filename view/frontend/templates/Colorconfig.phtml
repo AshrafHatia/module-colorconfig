@@ -1,0 +1,17 @@
+<?php
+$menuBgcolor = $block->getMenuBgColor();
+$bgColor = $block->getSiteBgColor();
+?>
+<style type="text/css">
+    body {
+        background-color: #<?= $bgColor ?>;
+    }
+
+    .nav-sections-item-content {
+        background-color: #<?= $menuBgcolor ?>;
+    }
+
+    .navigation {
+        background-color: #<?= $menuBgcolor ?>;
+    }
+</style>
