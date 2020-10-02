@@ -27,11 +27,21 @@ class Data extends AbstractHelper
 
     public function getMenuBgColor()
     {
-        return  $this->scopeConfig->getValue('ColorConfig/design/menubgcolor', ScopeConfigInterface::SCOPE_TYPE_DEFAULT);
+        return  $this->scopeConfig->getValue('ColorConfig/design/navbgcolor', ScopeConfigInterface::SCOPE_TYPE_DEFAULT);
     }
 
     public function getSiteBgColor()
     {
         return  $this->scopeConfig->getValue('ColorConfig/design/BgColor', ScopeConfigInterface::SCOPE_TYPE_DEFAULT);
+    }
+
+    public function getFooterBgColor()
+    {
+        return  $this->scopeConfig->getValue('ColorConfig/design/footer', ScopeConfigInterface::SCOPE_TYPE_DEFAULT);
+    }
+
+    public function getCopyrightBgColor()
+    {
+        return  $this->scopeConfig->getValue('ColorConfig/design/copyright', ScopeConfigInterface::SCOPE_TYPE_DEFAULT);
     }
 }

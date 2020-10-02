@@ -1,6 +1,6 @@
 # magento-2-color-config
 
-⚓ a magento 2 hello world module.
+⚓ a magento 2 Color config module.
 
 Magento 2 change frontend Colors at admin store configuration
 

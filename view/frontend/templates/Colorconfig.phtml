@@ -1,17 +1,27 @@
 <?php
 $menuBgcolor = $block->getMenuBgColor();
 $bgColor = $block->getSiteBgColor();
+$footer = $block->getFooterBgColor();
+$copyright = $block->getCopyrightBgColor();
 ?>
 <style type="text/css">
     body {
-        background-color: #<?= $bgColor ?>;
+        background-color: #<?= /* @noEscape */ $bgColor ?>;
     }
 
     .nav-sections-item-content {
-        background-color: #<?= $menuBgcolor ?>;
+        background-color: #<?= /* @noEscape */ $menuBgcolor ?>;
     }
 
     .navigation {
-        background-color: #<?= $menuBgcolor ?>;
+        background-color: #<?= /* @noEscape */ $menuBgcolor ?>;
+    }
+
+    .page-footer {
+        background: #<?= /* @noEscape */ $footer ?>;
+    }
+
+    .page-wrapper .copyright {
+        background: #<?= /* @noEscape */ $copyright ?>;
     }
 </style>

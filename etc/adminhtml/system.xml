@@ -26,12 +26,20 @@
             </group>
             <group id="design" translate="label" type="text" sortOrder="50" showInDefault="1" showInWebsite="1" showInStore="1">
                 <label>Site Design</label>
-                <field id="menubgcolor" translate="label" sortOrder="60" type="text" showInDefault="1" showInWebsite="1" showInStore="1">
+                <field id="navbgcolor" translate="label" sortOrder="60" type="text" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>Menu bar Background Color</label>
                     <frontend_model>Ashraf\ColorConfig\Block\Adminhtml\ColorPicker</frontend_model>
                 </field>
                 <field id="BgColor" translate="label" sortOrder="70" type="text" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>Site Background Color</label>
+                    <frontend_model>Ashraf\ColorConfig\Block\Adminhtml\ColorPicker</frontend_model>
+                </field>
+                <field id="footer" translate="label" sortOrder="80" type="text" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Footer Background Color</label>
+                    <frontend_model>Ashraf\ColorConfig\Block\Adminhtml\ColorPicker</frontend_model>
+                </field>
+                <field id="copyright" translate="label" sortOrder="90" type="text" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Footer Copyright Text Background Color</label>
                     <frontend_model>Ashraf\ColorConfig\Block\Adminhtml\ColorPicker</frontend_model>
                 </field>
             </group>

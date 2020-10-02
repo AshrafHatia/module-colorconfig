@@ -1,5 +1,5 @@
 {
-    "name": "ashraf/module-colorconfig",
+    "name": "ashrafhatia/module-colorconfig",
     "description": "Magento 2 change frontend Colors at admin store configuration",
     "type": "magento2-module",
     "version": "1.0.0",

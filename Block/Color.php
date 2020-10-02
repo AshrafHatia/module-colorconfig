@@ -39,4 +39,14 @@ class Color extends Template
     {
         return  $this->_dataHelper->getSiteBgColor();
     }
+
+    public function getFooterBgColor()
+    {
+        return  $this->_dataHelper->getFooterBgColor();
+    }
+
+    public function getCopyrightBgColor()
+    {
+        return  $this->_dataHelper->getCopyrightBgColor();
+    }
 }

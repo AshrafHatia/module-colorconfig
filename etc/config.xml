@@ -8,8 +8,10 @@
                 <mail>ashrafhatia@gmail.com</mail>
             </general>
             <design>
-                <menubgcolor>ff0669</menubgcolor>
+                <navbgcolor>ff0669</navbgcolor>
                 <BgColor>f4e8fc</BgColor>
+                <footer>E6E6FA</footer>
+                <copyright>FF6347</copyright>
             </design>
         </ColorConfig>
     </default>
