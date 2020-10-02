@@ -37,6 +37,6 @@ Please make sure to update tests as appropriate.
 
 ## 📜 License
 
-ℹ[OSL](https://github.com/AshrafHatia/module-colorconfig/blob/master/LICENSE.txt)
+ℹ [OSL](https://github.com/AshrafHatia/module-colorconfig/blob/master/LICENSE.txt)
 
 The Open Software License 3.0 [OSL-3.0](https://opensource.org/licenses/OSL-3.0)
