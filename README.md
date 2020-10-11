@@ -12,7 +12,8 @@ Ashraf_ColorConfig
 
 ```bash
 ⛏
-php bin/magento module:enable Ashraf_ColorConfig
+composer require ashrafhatia/module-colorconfig
+# php bin/magento module:enable Ashraf_ColorConfig
 php bin/magento setup:upgrade
 php bin/magento setup:di:compile
 php bin/magento setup:static-content:deploy -f
